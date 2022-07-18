@@ -1,4 +1,4 @@
-HOURS=$(date +%H)
+HOURS=$(date +%l)
 MINUTES=$(date +%M)
 TOTAL=$(($((60*$HOURS))+$MINUTES))
 
